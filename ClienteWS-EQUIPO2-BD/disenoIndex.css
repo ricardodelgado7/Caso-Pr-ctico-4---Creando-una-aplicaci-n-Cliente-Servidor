@@ -1,0 +1,96 @@
+table tr,td{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+table{
+    background-color: beige;
+    margin: 0 auto;
+}
+
+table tr td{
+    background-color: rgb(14, 90, 161);
+    border: outset brown 10px;
+    color: white;
+}
+
+table tr td{
+    border: solid black 2px;
+}
+
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(20deg, rgba(34,193,195,1) 100px, rgba(253,187,45,1) 100%);
+}
+
+
+
+a.otro {
+border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #2e518b; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+border-radius: 50px; /*bordes redondos*/
+}
+
+
+section{
+    margin-top: 20px;
+    text-align: center;
+}
+
+section a {
+    color: rgb(17, 5, 5);
+    font-size: 20px;
+}
+
+
+
+
+footer{
+    background: linear-gradient(20deg, rgb(6, 39, 145) 100px, rgb(211, 65, 28) 100%);
+    border-top: 0px solid rgb(0, 0, 0);
+    padding: 10px  20px ;
+    overflow:initial;
+
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 100%; 
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 6px;
+    border-bottom: 3px solid rgb(5, 1, 1);
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color:white;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.content-foo p{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0 0 0;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
